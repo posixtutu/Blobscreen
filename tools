@@ -1,0 +1,118 @@
+<html> 
+<head> 
+<title>ScreenMe</title> 
+<link rel="stylesheet" type="text/css" media="screen" href="menes.css"/> 
+ 
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+<meta name="format-detection" content="telephone=no" /> 
+ 
+<style type="text/css"> 
+ 
+/* All */
+ 
+.question {
+        font-weight: bold;
+}
+ 
+.question {
+        text-align: center;
+}
+        
+a.panel {
+        color: #586c90;
+        font-weight: bold;
+        text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0;
+}
+        
+.email {
+        height: 50px;
+        -webkit-text-size-adjust: 140%;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        left: 0px;
+}
+ 
+.hidden {
+        display: none;
+}
+ 
+.warning {
+        background-color: #fdd;
+}
+ 
+</style> 
+ 
+<script type="text/javascript"> 
+// Boolean logic is pretty cool, but it's not even being used and makes it look ugly on load
+var agent = navigator.userAgent;
+if(agent.indexOf('iPad') != -1 || agent.indexOf('iPhone') != -1 || agent.indexOf('iPod') != -1) {
+    document.write('<style>.computer { display: none; }</style>');
+}
+</script>
+</head> 
+<body class="pinstripe"> 
+<div class="panel">
+ 
+<div style="margin: 10px 10px; padding: 4px 13px"> 
+        <div> 
+                <div style="margin-top: 7px; margin-right: auto; margin-left: auto; text-align: left; width: 220px; text-align: center"> 
+                        <span style="font-size: 20px" id="welcome"><strong>'starscreen'</strong><br /></span>
+
+                        <span style="font-size: 17px" id="by">by POSIXtutu</span><br/>
+                </div> 
+ 
+        </div> 
+</div> 
+ 
+<fieldset class="computer warning"> 
+        <div class="fsd"><p class="answer"> 
+                ScreenMe works right on your iDevice. Either download starscreen.cydget to have this website and its tools in your lockscreen, or visit this site from your idevice's Safari.app
+        </p></div> 
+</fieldset> 
+<label class="lbl">Tools</label> 
+<fieldset> 
+        <div class="fsd"> 
+                <p class="question">SpeedTest</p> 
+                <hr /> 
+                <p class="answer">Want to know your iDevice's Upload / Download Speed? Use <em>TestMyiPhone.com</em>'s amazing Speed Test!</p> 
+        </div> 
+
+</fieldset>
+<fieldset> 
+        <a href="stest.html" class="fsa"> 
+                <div class="fsad"><label>Run Speed Test</label></div> 
+        </a> 
+</fieldset> 
+<br>
+<fieldset> 
+        <div class="fsd"> 
+                <p class="question">Pixelstar</p> 
+                <hr /> 
+                <p class="answer">Pixelstar is POSIXtutu's Dead Pixel finding method. Use it just in case!</em></p> 
+        </div> 
+</fieldset>
+
+<fieldset> 
+        <a href="/pixelstar" class="fsa"> 
+                <div class="fsad"><label>Run Pixelstar</label></div> 
+        </a> 
+</fieldset> 
+<br>
+<fieldset> 
+        <div class="fsd"> 
+                <p class="question">PacMan</p> 
+                <hr /> 
+                <p class="answer">Remmember Google Pacman? Of course you do...play it on your lockscreen! <em>Please note that playing this isn't as easy as it seems. We are trying to resize the game window.</em></p> 
+        </div> 
+</fieldset>
+
+<fieldset> 
+        <a href="pacman.html" class="fsa"> 
+                <div class="fsad"><label>Run PacMan</label></div> 
+        </a> 
+</fieldset> 
+</div>
+</body> 
+</html>
