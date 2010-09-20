@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title>Pixelstar</title>
+
+<link media="screen" href="m.css" type="text/css" rel="stylesheet" />
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Beginning of JavaScript -
+
+function changecolor(code) {
+   document.bgColor=code
+}
+
+// - End of JavaScript - -->
+
+</SCRIPT>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="toolbar anchorTop" id="topbar"><font size="4">Pixelstar</font> <i>by POSIXtutu</i></div>
+<div class="center">
+
+<BR>
+<B><font size="2">Select a colour from the ones listed below</font></B><P>
+<form>
+
+<input type="button" class="mybutton" name="Blue" value="Blue" onclick="changecolor('blue')">
+<input type="button" class="mybutton" name="Red" value="Red" onclick="changecolor('red')">
+
+<input type="button" class="mybutton" name="Black" value="Black" onclick="changecolor('black')">
+
+<input type="button" class="mybutton" name="Yellow" value="Yellow" onclick="changecolor('yellow')">
+<input type="button" class="mybutton" name="Green" value="Green" onclick="changecolor('green')">
+<P>
+<B><font size="2">Maximize the screen</font></B><P><FORM>
+<INPUT TYPE="BUTTON" VALUE="Fullscreen" ONCLICK="window.location.href='#Fullscreen'"> 
+</FORM><P>
+<P>
+<B><font size="2">Change orientation</B> <P>Try both the landscape and portrait orientations of your iDevice for best results.</font>
+<P>
+<B><font size="2">Start again</B> <P>By Picking another colour</font>
+
+</form>
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<a name="Fullscreen"></a>
+
+</div>
+</body>
+</html>
