@@ -1,0 +1,6 @@
+All of these files should be uploaded to the root directory, otherwise it won't work. You may modify strings to fix this.
+
+Background : http://www.screenme.com.nu/background.png
+Stripes: http://www.screenme.com.nu/pinstripes.png
+Legal icon: http://www.screenme.com.nu/legal.png
+Stylesheet: http://screenme.com.nu/menes.css
